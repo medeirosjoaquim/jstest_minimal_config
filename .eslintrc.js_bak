@@ -1,0 +1,32 @@
+module.exports = {
+    "env": {
+        "browser": true,
+        "es6": true,
+        "amd": true,
+	"node": true,
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+	"allowImportExportEverywhere": false,
+	"codeFrame": true,
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+	    "strict": 0,
+	    "no-console":0,
+	    "semi": [1, 'never'],
+    }
+};
