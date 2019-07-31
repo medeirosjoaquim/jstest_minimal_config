@@ -8,7 +8,7 @@
 $ yarn
 ````
 
-#### run testes with 
+#### run tests with 
 
 ```
 $ yarn test
